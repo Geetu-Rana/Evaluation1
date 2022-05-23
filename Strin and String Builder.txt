@@ -1,0 +1,12 @@
+
+Why String are immutable in java ?
+
+
+String is immutable in java because of the security, synchronization, cashing and class loading. The reason of making string immutable is to do not allow to extend it.
+The string object are cached in the string pool and it make the string immutable.
+
+Difference btwn String and String Builder :
+1. String is slow performance during the concatenation because of update of concate again and again.
+2.The string created by using class string are immutable but using string builder it is mutable.
+3.String required more memory to create a new instance if oparation performend on a string chenges its value, but string builder updates its value.
+4 String are readOnly on Nature. string builder are Dynamic in nature.
